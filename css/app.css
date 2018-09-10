@@ -12,6 +12,7 @@ label{
   color: white;
   background-color: black;
   font-weight: bold;
+  width:30%;
 }
 #promoImage{
   background-image: url("../images/test.jpeg");
