@@ -13,6 +13,8 @@ label{
   background-color: black;
   font-weight: bold;
   width:30%;
+  position: fixed; 
+  z-index: 1
 }
 #promoImage{
   background-image: url("../images/test.jpeg");

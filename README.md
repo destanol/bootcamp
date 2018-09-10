@@ -1,3 +1,24 @@
-# bootcamp
-Team Project.
- PureVolume.com redesign
+# Bootcamp Team Project
+
+A two page site redesign of Purevolume.com. Design rehaul of the homepage. The feature article 
+
+## Motoviation
+
+
+
+## Built With
+
+* [Foundation](https://foundation.zurb.com/) - The web framework used
+
+## Development Team
+
+* **Ahbi Patel** - *Developer* 
+* **Jinkal Patel** - *Developer*
+* **Jordan Priestman** - *Motion Designer* 
+* **Blake Hause** - *Graphic Designer* 
+* **David Estanol** - *Project Manager* 
+
+## License
+
+
+## Acknowledgments
