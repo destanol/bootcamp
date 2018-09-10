@@ -1,6 +1,6 @@
 # Bootcamp Team Project
 
-A two page site redesign of Purevolume.com. Design rehaul of the homepage. The feature article 
+A two page site redesign of Purevolume.com.
 
 ## Motoviation
 
