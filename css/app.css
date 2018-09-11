@@ -12,9 +12,8 @@ label{
   color: white;
   background-color: black;
   font-weight: bold;
-  width:30%;
-  position: fixed; 
-  z-index: 1
+  width:40%;
+  position: fixed;
 }
 #promoImage{
   background-image: url("../images/test.jpeg");
@@ -31,14 +30,26 @@ label{
   border-radius: 20px;
   font-size: 30px;
 }
-#featuredHeading{
-  padding-top: 20px;
-  padding-bottom: 20px;
+.featuredHeading{
+  border-bottom: 3px solid black;
 }
+
+#set1{
+  height: 300px;
+  background-image: url("../images/test.jpeg");
+}
+
+#set2{
+  height: 150px;
+  background-image: url("../images/test.jpeg");
+}
+
+#set3{
+  height: 150px;
+  background-image: url("../images/test.jpeg");
+}
+
 .viewMoreBtn{
   background-color: #000000;
   font-weight: bold;
-}
-#otherInfo{
-  background-color: #818181;
 }
