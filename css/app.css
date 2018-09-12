@@ -1,6 +1,11 @@
 p{
   text-align: justify;
 }
+header{
+  position: -webkit-sticky;
+   position: sticky;
+   top: 0;
+}
 label{
   background-color: black;
   color: white;
@@ -23,8 +28,7 @@ label{
   border-radius: 10px;
   font-weight: bold;
   background-color: #ff0000;
-  margin-top: 160px;
-  margin-left: 40%;
+  margin: 160px 0px 0px 40%;    /*top-right-bottom-left*/
 }
 #search{
   border-radius: 20px;
@@ -51,5 +55,42 @@ label{
 
 .viewMoreBtn{
   background-color: #000000;
+  font-weight: bold;
+}
+
+
+
+/* CSS for article page */
+
+article{
+  margin: 20px 0px 20px 0px;   /*top-right-bottom-left*/
+  padding: 20px 0px 20px 0px;  /*top-right-bottom-left*/
+}
+
+#authorInfo::first-letter{
+  font-size: 200%;
+}
+
+.adSpace{
+   position: -webkit-sticky;
+   position: sticky;
+   top: 43px;
+   background-color: black;
+   font-weight: bold;
+   color: white;
+   padding: 100px 0px 100px 0px;   /*top-right-bottom-left*/
+   font-size: 20px;
+}
+
+.boxes{
+    height: 250px;
+    margin: 20px 0px 0px 0px;  /*top-right-bottom-left*/
+    font-weight: bold;
+}
+
+#moreBtn{
+  background-color: white;
+  border: 3px solid black;
+  color: black;
   font-weight: bold;
 }
