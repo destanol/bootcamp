@@ -6,7 +6,6 @@ var movie = document.querySelector("video"),
 controls = document.querySelectorAll(".controls"),
 currentSource,
 Ext = '.mp4',
-// buttonGroup = document.querySelectorAll(".movieBtn"),
 volumeUp = document.querySelector("#volup"),
 volumeDown = document.querySelector("#voldown"),
 mute = document.querySelector("#mute"),
@@ -33,13 +32,6 @@ function playPause(){
 			// pauseIcon.classList.remove("hidden");
 		}
 }
-
-// function swapMovies(e) {
-// 	movie.src = "video/"+e.target.id + Ext;
-// 	movie.load(); // load it
-// 	movie.play(); // play it
-// }
-
 
 function volumeup() {
 		if (movie.volume <= 1) {
@@ -86,7 +78,3 @@ volumeDown.addEventListener("click", volumedown, false);
 mute.addEventListener("click", mutevolume, false);
 fullscreen.addEventListener("click", goFullscreen, false);
 ppause.addEventListener("click", playPause, false);
-
-// for (i=0; i<buttonGroup.length; i++) {
-// 		buttonGroup[i].addEventListener("click", swapMovies, false);
-// 	}

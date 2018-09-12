@@ -1,3 +1,6 @@
+.hidden{
+  display: none;
+}
 p{
   text-align: justify;
 }
@@ -5,6 +8,17 @@ header{
   position: -webkit-sticky;
    position: sticky;
    top: 0;
+}
+nav{
+  position: -webkit-sticky;
+   position: sticky;
+   top: 43px;
+}
+nav ul li{
+  padding: 20px;
+}
+nav input{
+  margin-left: 20px;
 }
 label{
   background-color: black;
