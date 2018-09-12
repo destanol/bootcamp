@@ -1,10 +1,12 @@
 # Bootcamp Team Project
 
-A two page site redesign of Purevolume.com. The article redesigned for functionality and 
+A two page site redesign of Purevolume.com. The article redesigned for functionality
 
 ## Built With
 
 * [Foundation](https://foundation.zurb.com/) - The web framework used
+* [JQuery](https://jquery.com/) - The web framework used
+
 
 ## Development Team
 
