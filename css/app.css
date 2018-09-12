@@ -33,6 +33,7 @@ label{
   font-weight: bold;
   width:40%;
   position: fixed;
+  height: 100%;
 }
 #promoImage{
   background-image: url("../images/test.jpeg");
@@ -47,9 +48,11 @@ label{
 #search{
   border-radius: 20px;
   font-size: 30px;
+  width: 80%;
+  margin: 0 auto ;
 }
 .featuredHeading{
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid1 black;
 }
 
 #set1{
