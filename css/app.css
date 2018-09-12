@@ -85,6 +85,11 @@ article{
   font-size: 200%;
 }
 
+#profilePhoto{
+  border-radius: 100%;
+
+}
+
 .adSpace{
    position: -webkit-sticky;
    position: sticky;
