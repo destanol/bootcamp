@@ -22,12 +22,12 @@ function playPause(){
 		 //console.log(Ext);
 		if (movie.paused) {
 			movie.play();
-			play.src = "images/pause.png";
+			play.src = "images/pause.svg";
 			// hidePlayIcon();
 			// playIcon.classList.remove("hidden");
 		} else {
 			movie.pause();
-			play.src = "images/play.png";
+			play.src = "images/play.svg";
 			// hidePauseIcon();
 			// pauseIcon.classList.remove("hidden");
 		}

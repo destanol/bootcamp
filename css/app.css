@@ -1,6 +1,13 @@
 .hidden{
   display: none;
 }
+a{
+  color: white;
+}
+li a:hover,.activePage{
+  font-size: 120%;
+  color: red;
+}
 p{
   text-align: justify;
 }
@@ -74,7 +81,12 @@ label{
   background-color: #000000;
   font-weight: bold;
 }
-
+.viewMoreBtn:hover{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border: 3px solid black;
+}
 
 /* CSS for article page */
 
@@ -110,6 +122,12 @@ article{
   color: black;
   font-weight: bold;
 }
+#moreBtn:hover{
+  background-color: black;
+  border: 3px solid white;
+  color: white;
+}
+
 
 .articleHead{
   font-family: 'Archivo', sans-serif;
