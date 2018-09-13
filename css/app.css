@@ -5,9 +5,9 @@ a{
   color: white;
 }
 li a:hover,.activePage{
-  font-size: 120%;
   color: red;
 }
+
 p{
   text-align: justify;
 }
@@ -22,28 +22,36 @@ nav{
    top: 43px;
 }
 nav ul li{
-  padding: 20px;
+  padding: 10px;
 }
 nav input{
   margin-left: 20px;
 }
-label{
+footer{
   background-color: black;
   color: white;
   height: 150px;
   font-weight: bold;
 }
+div section img{
+  opacity: 0.7;
+  transition: .4s ease-in-out;
+}
 
+div section img:hover{
+  opacity: 1;
+  transition: .4s ease-in-out;
+}
 #main-menu{
   color: white;
   background-color: black;
   font-weight: bold;
-  width:40%;
+  width:550px;
   position: fixed;
   height: 100%;
 }
 #promoImage{
-  background-image: url("../images/test.jpeg");
+  background-image: url("../images/promoimage.jpg");
   height: 350px;
 }
 #playBtn{
@@ -54,37 +62,70 @@ label{
 }
 #search{
   border-radius: 20px;
-  font-size: 30px;
-  width: 80%;
-  margin: 0 auto ;
+  font-size: 25px;
+  margin-top: 20px;
+  /*width: 80%;*/
+  /*margin: 0 auto ;*/
 }
 .featuredHeading{
   border-bottom: 3px solid1 black;
 }
 
+
+
+
 #set1{
   height: 300px;
-  background-image: url("../images/test.jpeg");
+  background-image: url("../images/trending1.png");
+  transition: .4s ease-in-out;
 }
-
+#hoverView{
+  font-weight: bold;
+  opacity: 0.3;
+  background-color: white;
+  transition: .4s ease-in-out;
+}
+/*#set1:hover{
+  opacity: 0.3;
+  transition: .4s ease-in-out;
+}*/
+#set1:hover + #hoverView{
+  transition: .4s ease-in-out;
+  opacity: 1;
+  
+}
 #set2{
   height: 150px;
-  background-image: url("../images/test.jpeg");
+  background-image: url("../images/trending2.png");
 }
 
 #set3{
   height: 150px;
-  background-image: url("../images/test.jpeg");
+  background-image: url("../images/trending3.png");
+}
+
+/*article heading for all (Music, Pop culture, Enytertainment*/
+
+.articleHeading{
+  color: black;
+  font-weight: bold;
+  transition: .4s ease-in-out;
+}
+
+.articleHeading:hover{
+  color: red;
+  transition: .4s ease-in-out;
 }
 
 .viewMoreBtn{
   background-color: #000000;
   font-weight: bold;
+  border: 3px solid white;
+  margin-top: 20px;
 }
 .viewMoreBtn:hover{
   background-color: white;
   color: black;
-  font-weight: bold;
   border: 3px solid black;
 }
 
