@@ -75,11 +75,11 @@ div section img:hover{
 
 
 #set1{
-  height: 300px;
+  height: 345px;
   background-image: url("../images/trending1.png");
   transition: .4s ease-in-out;
 }
-#hoverView{
+#hoverSet1,#hoverSet2,#hoverSet3{
   font-weight: bold;
   opacity: 0.3;
   background-color: white;
@@ -89,11 +89,19 @@ div section img:hover{
   opacity: 0.3;
   transition: .4s ease-in-out;
 }*/
-#set1:hover + #hoverView{
+#set1:hover + #hoverSet1{
   transition: .4s ease-in-out;
   opacity: 1;
-  
 }
+#set2:hover + #hoverSet2{
+  transition: .4s ease-in-out;
+  opacity: 1;
+}
+#set3:hover + #hoverSet3{
+  transition: .4s ease-in-out;
+  opacity: 1;
+}
+
 #set2{
   height: 150px;
   background-image: url("../images/trending2.png");
