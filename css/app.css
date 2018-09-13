@@ -118,29 +118,51 @@ article{
 
 .category{
   margin-left: 20px;
-  font-weight: 400i;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1em;
+  margin-bottom: 0px;
 
 }
 
 .articleTitle{
   margin-left: 20px;
+  margin-bottom: 0px;
+  font-weight: 800;
 
+  
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+
+}
 }
 
 .subtitle{
   margin-left: 20px;
+  margin-bottom: 0px;
 
 }
 
 .profilePhoto{
   border-radius: 100%;
-  width: 8%;
+  min-width: 70px;
+  max-width: 30%;
+  margin-bottom: 0px;
+
 }
 
 .authorInfo{
   display: flex;
   align-items:center;
-  margin-left: 20px
+  margin-left: 20px;
 }
 
 .authorName{
