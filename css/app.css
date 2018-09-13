@@ -146,9 +146,11 @@ article{
   padding: 20px 0px 20px 0px;  /*top-right-bottom-left*/
 }
 
-#authorInfo::first-letter{
+/* #authorInfo::first-letter{
   font-size: 200%;
-}
+} */
+
+
 
 .adSpace{
    position: -webkit-sticky;
@@ -185,12 +187,13 @@ article{
 
 }
 
-.category{
+.category{ 
   margin-left: 20px;
   font-weight: 400;
   font-style: italic;
   font-size: 1em;
   margin-bottom: 0px;
+  color: grey;
 
 }
 
@@ -204,11 +207,9 @@ article{
 
 @media screen and (max-width: 40em) {
   .articleTitle {
-
     font-size: 1em;
   }
 }
-
 
 
 .subtitle{
@@ -234,3 +235,11 @@ article{
 .authorName{
   margin: 0%
 }
+
+.fullWidth {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: initial;
+}
+
