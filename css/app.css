@@ -15,11 +15,12 @@ header{
   position: -webkit-sticky;
    position: sticky;
    top: 0;
+   z-index: 1;
 }
 nav{
   position: -webkit-sticky;
    position: sticky;
-   top: 43px;
+   top: 41px;
 }
 nav ul li{
   padding: 10px;
@@ -64,6 +65,7 @@ div section img:hover{
   border-radius: 20px;
   font-size: 25px;
   margin-top: 20px;
+  margin-right: 10px;
   /*width: 80%;*/
   /*margin: 0 auto ;*/
 }
