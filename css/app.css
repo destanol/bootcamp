@@ -129,21 +129,18 @@ article{
   margin-left: 20px;
   margin-bottom: 0px;
   font-weight: 800;
-
   
-@media screen and (min-width: 601px) {
-  div.example {
-    font-size: 80px;
+  font-size: 5em;
+}
+
+@media screen and (max-width: 40em) {
+  .articleTitle {
+
+    font-size: 1em;
   }
 }
 
-@media screen and (max-width: 600px) {
-  div.example {
-    font-size: 30px;
-  }
 
-}
-}
 
 .subtitle{
   margin-left: 20px;
