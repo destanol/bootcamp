@@ -1,6 +1,6 @@
-# Bootcamp Team Project
+# Purevolume.com redesign. Project
 
-A two page site redesign of Purevolume.com. The article redesigned for functionality
+A two page site redesign of Purevolume.com. The article redesigned for style.
 
 ## Built With
 
