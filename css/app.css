@@ -78,7 +78,7 @@ div section img:hover{
 
 #set1{
   height: 345px;
-  background-image: url("../images/trending1.png");
+  background-image: url("../images/trending1.jpg");
   transition: .4s ease-in-out;
 }
 #hoverSet1,#hoverSet2,#hoverSet3{
@@ -106,12 +106,12 @@ div section img:hover{
 
 #set2{
   height: 150px;
-  background-image: url("../images/trending2.png");
+  background-image: url("../images/trending2.jpg");
 }
 
 #set3{
   height: 150px;
-  background-image: url("../images/trending3.png");
+  background-image: url("../images/trending3.jpg");
 }
 
 /*article heading for all (Music, Pop culture, Enytertainment*/
@@ -139,6 +139,11 @@ div section img:hover{
   border: 3px solid black;
 }
 
+
+.addgif{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 /* CSS for article page */
 
 article{
@@ -156,11 +161,6 @@ article{
    position: -webkit-sticky;
    position: sticky;
    top: 43px;
-   background-color: black;
-   font-weight: bold;
-   color: white;
-   padding: 100px 0px 100px 0px;   /*top-right-bottom-left*/
-   font-size: 20px;
 }
 
 .boxes{
@@ -187,7 +187,7 @@ article{
 
 }
 
-.category{ 
+.category{
   margin-left: 20px;
   font-weight: 400;
   font-style: italic;
@@ -201,7 +201,7 @@ article{
   margin-left: 20px;
   margin-bottom: 0px;
   font-weight: 800;
-  
+
   font-size: 5em;
 }
 
@@ -244,4 +244,3 @@ article{
   margin-right: auto;
   max-width: initial;
 }
-
