@@ -1,4 +1,4 @@
-# Purevolume.com redesign. Project
+# Purevolume.com redesign
 
 A two page site redesign of Purevolume.com. The article redesigned for style.
 
