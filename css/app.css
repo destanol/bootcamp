@@ -38,6 +38,9 @@ div section img{
   opacity: 0.7;
   transition: .4s ease-in-out;
 }
+label{
+  color: white;
+}
 
 div section img:hover{
   opacity: 1;
