@@ -207,7 +207,7 @@ article{
 
 @media screen and (max-width: 40em) {
   .articleTitle {
-    font-size: 1em;
+    font-size: 1.5em;
   }
 }
 
@@ -223,6 +223,8 @@ article{
   min-width: 70px;
   max-width: 30%;
   margin-bottom: 0px;
+  margin-left: 5px;
+
 
 }
 
