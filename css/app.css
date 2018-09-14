@@ -164,7 +164,7 @@ article{
 }
 
 .boxes{
-    height: 250px;
+    /* height: 250px; */
     margin: 20px 0px 0px 0px;  /*top-right-bottom-left*/
     font-weight: bold;
 }
